@@ -1,22 +1,22 @@
-body {
-  background-image: url("Ros_Anshu.jpg");
-}
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 18px;
-  width: 100%;
+.prof {
+  position: relative;
   text-align: center;
+  width: 20%;
+  border-bottom: 2px solid gray;
+  left: 500px;
 }
-.who {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
+#Accounts {
   text-align: center;
+  width: 100%%;
+}
+.theEnd {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  float: left;
+  background-color: #333;
+}
+.me {
+  left: 10px;
+  color: white;
 }
