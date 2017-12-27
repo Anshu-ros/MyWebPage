@@ -5,7 +5,7 @@
   border-bottom: 2px solid gray;
   left: 500px;
 }
-#Accounts {
+#Accounts, #Tech {
   text-align: center;
   width: 100%%;
 }
@@ -16,7 +16,82 @@
   float: left;
   background-color: #333;
 }
+.pro {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  float: left;
+  background-color: #937;
+}
 .me {
   left: 10px;
   color: white;
+  text-align: center;
+}
+.pro-container2 {
+  display: table-cell;
+  padding: 16px;
+  height: 200px;
+  width: 33.33%;
+  
+}
+.pro-container {
+  display: table-cell;
+  position: relative;
+  padding: 16px;
+  height: 150px;
+  width: 33.33%;
+  
+}
+
+.image2 {
+  text-align: center
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 10px;
+  background-color: #778899;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.pro-container:hover .overlay {
+  width: 100%;
+}
+
+.pro-text {
+  text-align: center; 
+  color: white;
+  font-size: 18px;
+  top: 100px;
+  position: absolute;
+  overflow: hidden;
+}
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+}
+#panel1, #flip1 {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel1 {
+    padding: 50px;
 }
