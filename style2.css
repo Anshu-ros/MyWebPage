@@ -8,6 +8,14 @@
     display: table;
     width: 100%;
 }
+.col-container2 {
+    display: table;
+    width: 100%;
+}
+.col-container3 {
+    display: table;
+    width: 100%;
+}
 .col {
     display: table-cell;
     padding: 16px;
